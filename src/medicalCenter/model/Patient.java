@@ -6,8 +6,8 @@ import java.util.Date;
 import java.util.Objects;
 
 public class Patient extends Person {
-    Doctor doctor;
-    Date registerDate;
+    private Doctor doctor;
+    private Date registerDate;
 
     public Patient(String id, String name, String surname, String phone, Doctor doctor, Date registerDate) {
         super(id, name, surname, phone);

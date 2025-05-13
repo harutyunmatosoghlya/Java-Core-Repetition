@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Doctor extends Person {
     private String email;
-    Profession profession;
+    private Profession profession;
 
     public Doctor(String id, String name, String surname, String phone, String email, Profession profession) {
         super(id, name, surname, phone);
