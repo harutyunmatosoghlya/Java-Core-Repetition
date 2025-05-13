@@ -1,4 +1,4 @@
-package arrayutil;
+package arrayUtil;
 
 public class ArrayTest {
     public static void main(String[] args) {

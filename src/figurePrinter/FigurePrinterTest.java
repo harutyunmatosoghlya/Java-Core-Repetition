@@ -1,4 +1,4 @@
-package figureprinter;
+package figurePrinter;
 
 public class FigurePrinterTest {
     public static void main(String[] args) {

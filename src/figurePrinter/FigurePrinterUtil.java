@@ -1,4 +1,4 @@
-package figureprinter;
+package figurePrinter;
 
 public class FigurePrinterUtil {
     void firstFigure(int n, char c) {

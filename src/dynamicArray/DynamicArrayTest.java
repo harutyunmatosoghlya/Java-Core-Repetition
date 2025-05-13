@@ -1,4 +1,4 @@
-package dynamicarray;
+package dynamicArray;
 
 public class DynamicArrayTest {
     public static void main(String[] args) {

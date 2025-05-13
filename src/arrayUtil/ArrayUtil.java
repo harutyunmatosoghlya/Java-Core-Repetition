@@ -1,4 +1,4 @@
-package arrayutil;
+package arrayUtil;
 
 public class ArrayUtil {
     public static void printArray(int... nums) {
