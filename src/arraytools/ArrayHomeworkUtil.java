@@ -25,7 +25,7 @@ public class ArrayHomeworkUtil {
     public static Map<Integer, Integer> repeating(int... nums) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int num : nums) {
-            map.put(num, map.getOrDefault(num, 1) + 1);
+            map.put(num, map.getOrDefault(num, 0) + 1);
         }
         return map;
     }
