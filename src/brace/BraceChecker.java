@@ -16,11 +16,11 @@ public class BraceChecker {
                 case '(', '[', '{' -> stack.push(new Brace(c, i));
                 case ')', ']', '}' -> {
                     if (stack.isEmpty()) {
-                        System.out.println("Error: closed " + c + " at " + i + " but nothing was opened.");
+                        System.err.println("Error: closed " + c + " at " + i + " but nothing was opened.");
                     } else {
                         Brace open = stack.pop();
                         if (!bracesMatch(open.getBrace(), c)) {
-                            System.out.println("Error: opened " + open.getBrace() + " at " + open.getIndex() +
+                            System.err.println("Error: opened " + open.getIndex() + " at " + open.getIndex() +
                                     " but closed " + c + " at " + i);
                         }
                     }
