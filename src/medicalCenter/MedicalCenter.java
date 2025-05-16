@@ -40,7 +40,7 @@ public class MedicalCenter implements MedicalCenterCom {
                 chooseProfession()
         );
         personStorage.add(doctor);
-        System.out.println("💙 Doctor added!");
+        System.out.println("Doctor added!");
     }
 
     private static void changeDoctorById(Doctor doctor) {
